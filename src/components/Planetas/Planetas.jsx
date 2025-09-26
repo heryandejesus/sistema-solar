@@ -1,14 +1,14 @@
 import React, { useState } from "react"
 import { motion } from "framer-motion"
 
-import mercurio from "../../assets/mercurio.jpg"
-import venus from "../../assets/venus.jpg"
-import tierra from "../../assets/tierra.jpg"
-import marte from "../../assets/marte.jpg"
-import jupiter from "../../assets/jupiter.jpg"
-import saturno from "../../assets/saturno.jpg"
+import mercurio from "../../assets/mercurio.png"
+import venus from "../../assets/venus.png"
+import tierra from "../../assets/tierra.png"
+import marte from "../../assets/marte.png"
+import jupiter from "../../assets/jupiter.png"
+import saturno from "../../assets/saturno.png"
 import urano from "../../assets/urano.png"
-import neptuno from "../../assets/neptuno.jpg"
+import neptuno from "../../assets/neptuno.png"
 
 const planetas = [
   { nombre: "Mercurio", gravedad: 0.38, imagen: mercurio, desc: "El planeta más cercano al Sol." },
